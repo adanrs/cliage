@@ -161,7 +161,7 @@
                     <?php } ?>
                 </div>
                 <?php if ($this->ion_auth->in_group('admin')) { ?>
-                    <div class="col-lg-6 col-sm-6">    
+                 <!--   <div class="col-lg-6 col-sm-6">    
                         <a href="finance/payment">
                             <section class="panel">
                                 <div class="symbol terques">
@@ -190,7 +190,7 @@
                                 </div>
                             </section>         
                         </a>     
-                    </div>
+                    </div>  -->
                 <?php } ?>
 
             </div>

@@ -281,10 +281,10 @@
                                     <span> <?php  echo lang('human_resources'); ?> </span>
                                 </a>
                                 <ul class="sub">
-                                   <!-- <li><a href="nurse"><i class="fa fa-user"></i> <?php  echo lang('nurse'); ?> </a></li>-->
-                                   <!-- <li><a href="pharmacist"><i class="fa fa-user"></i> <?php  echo lang('pharmacist'); ?> </a></li> -->
-                                   <!-- <li><a href="laboratorist"><i class="fa fa-user"></i> <?php  echo lang('laboratorist'); ?> </a></li>-->
-                                   <!-- <li><a href="accountant"><i class="fa fa-user"></i> <?php  echo lang('accountant'); ?> </a></li> -->
+                                   <li><a href="nurse"><i class="fa fa-user"></i> <?php  echo lang('nurse'); ?> </a></li>
+                                   <li><a href="pharmacist"><i class="fa fa-user"></i> <?php  echo lang('pharmacist'); ?> </a></li> 
+                                   <li><a href="laboratorist"><i class="fa fa-user"></i> <?php  echo lang('laboratorist'); ?> </a></li>
+                                   <li><a href="accountant"><i class="fa fa-user"></i> <?php  echo lang('accountant'); ?> </a></li> 
                                 </ul>
                             </li>
                         <?php } ?>

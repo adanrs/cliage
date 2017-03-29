@@ -229,7 +229,7 @@
                                 <span> <?php  echo lang('dashboard'); ?> </span>
                             </a>
                         </li>
-                        <!--
+                     
                         <?php if ($this->ion_auth->in_group('admin')) { ?>
                                                     <li>
                                                         <a href="department">
@@ -239,7 +239,7 @@
                                                     </li>
                         <?php } ?>
                         
-                        -->
+                        
                         <?php if ($this->ion_auth->in_group('admin')) { ?>
                             <li> <li class="sub-menu">
                                 <a href="javascript:;" >
@@ -331,7 +331,7 @@
                                 </ul>
                             </li>
                         <?php } ?>
-                        <!--
+                        
                         <?php if ($this->ion_auth->in_group(array('admin', 'Laboratorist', 'Doctor'))) { ?>
                                                 <li class="sub-menu">
                                                     <a href="javascript:;" >
@@ -375,7 +375,7 @@
                                                 </li>
                         <?php } ?>
                         
-                        -->
+                    
                         <?php if ($this->ion_auth->in_group('admin')) { ?>
                             <li>
                                 <a href="settings" >
@@ -458,7 +458,7 @@
                                 </a>
                             </li>
                         <?php } ?>
-                        <!--
+                        
                         <?php if ($this->ion_auth->in_group('Nurse')) { ?>
                                                
                                                   <li>
@@ -490,7 +490,7 @@
                                                
                         <?php } ?>
                         
-                        -->
+                        
 
                         <?php if ($this->ion_auth->in_group('Patient')) { ?>
 

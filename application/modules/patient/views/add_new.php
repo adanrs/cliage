@@ -58,7 +58,7 @@
                                             if (!empty($patient->p_id)) {
                                                 echo $patient->p_id;
                                             }
-                                            ?>' placeholder="">
+                                            ?>' placeholder="" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputEmail1"><?php echo lang('name'); ?></label>
@@ -66,14 +66,14 @@
                                             if (!empty($patient->name)) {
                                                 echo $patient->name;
                                             }
-                                            ?>' placeholder="">
+                                            ?>' placeholder="" required>
                                         </div>
 
                                         <div class="form-group">
 
 
                                             <label for="exampleInputEmail1"><?php echo lang('password'); ?></label>
-                                            <input type="password" class="form-control" name="password" id="exampleInputEmail1" placeholder="">
+                                            <input type="password" class="form-control" name="password" id="exampleInputEmail1" placeholder="" required>
 
                                         </div>
 
@@ -84,7 +84,7 @@
                                             if (!empty($patient->email)) {
                                                 echo $patient->email;
                                             }
-                                            ?>' placeholder="">
+                                            ?>' placeholder="" required>
                                         </div>
 
                                         <div class="form-group">
@@ -93,7 +93,7 @@
                                             if (!empty($patient->address)) {
                                                 echo $patient->address;
                                             }
-                                            ?>' placeholder="">
+                                            ?>' placeholder="" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputEmail1"><?php echo lang('phone'); ?></label>
@@ -101,7 +101,7 @@
                                             if (!empty($patient->phone)) {
                                                 echo $patient->phone;
                                             }
-                                            ?>' placeholder="">
+                                            ?>' placeholder="" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputEmail1"><?php echo lang('sex'); ?></label>

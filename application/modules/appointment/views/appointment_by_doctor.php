@@ -11,7 +11,7 @@
             <div class="panel-body col-md-8">
                 <div class="adv-table editable-table ">
                     <div class="clearfix">
-                        <!--
+                  
                         <a data-toggle="modal" href="#myModal">
                             <div class="btn-group">
                                 <button id="" class="btn green">
@@ -19,7 +19,7 @@
                                 </button>
                             </div>
                         </a>
-                        -->
+                    
                         <button class="export" onclick="javascript:window.print();">Print</button>  
                     </div>
                     <div class="space15"></div>
@@ -56,9 +56,9 @@
                                     <?php  echo $appointment->remarks; ?>
                                 </td> 
                                 <td>
-                                    <!--
+                                    
                                     <button type="button" class="btn btn-info btn-xs btn_width editbutton" data-toggle="modal" data-id="<?php echo $appointment->id; ?>"><i class="fa fa-edit"> <?php  echo lang('edit'); ?></i></button>   
-                                    -->
+                         
                                     <a class="btn btn-info btn-xs btn_width delete_button" href="appointment/delete?id=<?php echo $appointment->id; ?>" onclick="return confirm('Are you sure you want to delete this item?');"><i class="fa fa-trash-o"> <?php  echo lang('delete'); ?></i></a>
                                 </td>
                             </tr>

@@ -93,7 +93,7 @@ class Appointment extends MX_Controller {
                 redirect("appointment/addNewView");
             }
         } else {
-            //$error = array('error' => $this->upload->display_errors());
+            $error = array('error' => $this->upload->display_errors());
             $data = array();
             $data = array(
                 'patient' => $patient,

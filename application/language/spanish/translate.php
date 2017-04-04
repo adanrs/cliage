@@ -38,21 +38,21 @@ $lang['birth_report'] = 'Birth Report';
 $lang['donor'] = 'Donor';
 $lang['bed'] = 'Bed';
 $lang['total_bed'] = 'Total Bed';
-$lang['expense'] = 'Expense';
-$lang['total_payment'] = 'Total payment';
+$lang['expense'] = 'Gasto';
+$lang['total_payment'] = 'Total De Pago';
 $lang['departments'] = 'Departments';
 $lang['human_resources'] = 'Human Resources';
 $lang['financial_activities'] = 'Financial Activities';
-$lang['settings'] = 'Settings';
-$lang['profile'] = 'Profile';
-$lang['my_profile'] = 'My Profile';
+$lang['settings'] = 'Configuracion';
+$lang['profile'] = 'Perfil';
+$lang['my_profile'] = 'Mi Perfil';
 $lang['my_consultant'] = 'My Consultant';
 $lang['my_due_balance'] = 'My Due Balance';
 $lang['my_last_login'] = 'My Last Login';
 $lang['my_reports'] = 'My Reports';
-$lang['hms'] = 'Hospital Management System'; 
+$lang['hms'] = ''; 
 
-$lang['see_all_patients'] = 'See All Patients'; 
+$lang['see_all_patients'] = 'Ver Todos los Pacientes'; 
 $lang['see_all_payments'] = 'See All Payments';
 $lang['see_all_medicines'] = 'See All Medicine';
 $lang['payment_today'] = 'Payment Today';
@@ -71,13 +71,13 @@ $lang['log_out'] = 'Log Out';
 //sidebar
 $lang['dashboard'] = 'Dashboard';
 $lang['all_hospitals'] = 'Financial Activities';
-$lang['create_new_hospital'] = 'Settings';
+$lang['create_new_hospital'] = 'Configuracion';
 
 
 
 
 // Departments
-$lang['add_department'] = 'Add Department';
+$lang['add_department'] = 'Agregar Departmento';
 $lang['edit_department'] = 'Edit Department';
 $lang['name'] = 'Name';
 $lang['description'] = 'Description';
@@ -86,19 +86,19 @@ $lang['print'] = 'Print';
 
 
 // Doctors
-$lang['doctors'] = 'Doctors';
-$lang['add_doctor'] = 'Add Doctor';
-$lang['edit_doctor'] = 'Edit Doctor';
+$lang['doctors'] = 'Doctores';
+$lang['add_doctor'] = 'Agregar Doctor';
+$lang['edit_doctor'] = 'Editar Doctor';
 $lang['image'] = 'Image';
 $lang['email'] = 'email';
-$lang['address'] = 'Address';
-$lang['phone'] = 'Phone';
+$lang['address'] = 'Direccion';
+$lang['phone'] = 'Telefono';
 $lang['password'] = 'Password';
 
 // Patient
-$lang['add_patient'] = 'Add Patient';
-$lang['register_new_patient'] = 'Register Patient';
-$lang['edit_patient'] = 'Edit Patient';
+$lang['add_patient'] = 'Agregar Paciente';
+$lang['register_new_patient'] = 'Registrar Paciente';
+$lang['edit_patient'] = 'Editar Paciente';
 $lang['birth_date'] = 'Birth Date';
 $lang['blood_group'] = 'Blood Group';
 $lang['due_balance'] = 'Due Balance';
@@ -112,13 +112,13 @@ $lang['gender'] = 'Gender';
 
 // Appoinytment
 
-$lang['appointments'] = 'Appointments';
-$lang['appointment'] = 'Appointment';
+$lang['appointments'] = 'Citas';
+$lang['appointment'] = 'Cita';
 $lang['id'] = 'Id';
 $lang['date-time'] = 'Date - Time';
-$lang['remarks'] = 'Remarks';
-$lang['add_appointment'] = 'Add Appointment';
-$lang['edit_appointment'] = 'Edit Appointment';
+$lang['remarks'] = 'Nota';
+$lang['add_appointment'] = 'Agregar Cita';
+$lang['edit_appointment'] = 'Editar Cita';
 
 
 // Nurse
@@ -139,7 +139,7 @@ $lang['edit_accountant'] = 'Edit Accountant';
 
 
 // Financial Activities
-$lang['payments'] = 'Payments';
+$lang['payments'] = 'Pagos';
 $lang['date'] = 'Date';
 $lang['sub_total'] = 'Sub Total';
 $lang['discount'] = 'Discount';
@@ -158,11 +158,11 @@ $lang['amount'] = 'Amount';
 $lang['submit'] = 'Submit';
 $lang['add_more_categories'] = 'Add More Categories';
 
-$lang['category'] = 'Category';
+$lang['category'] = 'Categorias';
 
-$lang['expenses'] = 'Expenses';
-$lang['add_expense'] = 'Add Expense';
-$lang['edit_expense'] = 'Edit Expense';
+$lang['expenses'] = 'Gastos';
+$lang['add_expense'] = 'Agregar Gasto';
+$lang['edit_expense'] = 'Editar Gasto';
 
 $lang['expense_categories'] = 'Expense categories';
 $lang['add_expense_category'] = 'Add Expense Category';
@@ -266,11 +266,11 @@ $lang['type'] = 'Type';
 
 //Settings
 $lang['system_name'] = 'System Name';
-$lang['title'] = 'Title';
-$lang['address'] = 'Address';
-$lang['phone'] = 'Phone';
+$lang['title'] = 'Titulo';
+$lang['address'] = 'Direccion';
+$lang['phone'] = 'Telefono';
 $lang['hospital_email'] = 'Hospital Email';
-$lang['currency'] = 'Currency';
+$lang['currency'] = 'Moneda';
 $lang['discount_type'] = 'Discount Type';
 
 //Profile
@@ -279,10 +279,10 @@ $lang['manage_profile'] = 'Manage Profile';
 
 //options button
 
-$lang['edit'] = 'Edit';
-$lang['info'] = 'Info';
-$lang['delete'] = 'Delete';
-$lang['history'] = 'History';
+$lang['edit'] = 'Editar';
+$lang['info'] = 'Informacion';
+$lang['delete'] = 'Eliminar';
+$lang['history'] = 'Historia';
 
 
 

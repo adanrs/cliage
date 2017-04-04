@@ -105,7 +105,7 @@ $lang['actions'] = 'Acciones';
 // Doctors
 $lang['doctors'] = 'Doctores';
 $lang['list_of_doctors'] = 'Doctores';
-$lang['treatment_history'] = 'Tratamientos';
+$lang['treatment_history'] = 'Observaciones';
 $lang['add_doctor'] = 'Añadir Doctor';
 $lang['edit_doctor'] = 'Editar Doctor';
 $lang['image'] = 'Imagen';
@@ -141,7 +141,7 @@ $lang['appointments'] = 'Citas';
 $lang['appointment'] = 'Citas';
 $lang['id'] = 'Id';
 $lang['date-time'] = 'Fecha - Hora';
-$lang['remarks'] = 'Tratamiento:';
+$lang['remarks'] = 'Atendidos:';
 $lang['add_appointment'] = 'Añadir cita';
 $lang['edit_appointment'] = 'Modificar cita';
 $lang['start_time'] = 'Hora de inicio';
@@ -183,7 +183,7 @@ $lang['add_payment'] = 'Añadir Pago';
 $lang['edit_payment'] = 'Editar Pago';
 $lang['payment_categories'] = 'categorías de pago';
 $lang['edit_payment_category'] = 'Editar Pago Categoría';
-$lang['amount'] = 'Cantidad';
+$lang['amount'] = 'Precio';
 $lang['submit'] = 'Enviar';
 $lang['add_more_categories'] = 'Añadir Más categorías';
 

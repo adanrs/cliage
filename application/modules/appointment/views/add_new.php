@@ -53,7 +53,7 @@
                                                 <label for="exampleInputEmail1">  <?php echo lang('doctor'); ?></label>
                                             </div>
                                             <div class="col-md-9"> 
-                                                <select class="form-control m-bot15" name="doctor" value=''>  
+                                                <select class="form-control m-bot15" name="doctor" value='' required>  
                                                     <option value=""><?php echo lang('select'); ?>.....</option>
                                                     <?php foreach ($doctors as $doctor) { ?>
                                                         <option value="<?php echo $doctor->id; ?>"<?php
@@ -70,14 +70,14 @@
                                         <div class="form-group">
                                             <label for="exampleInputEmail1"> <?php echo lang('date'); ?></label>
 
-                                            <input type="text" class="form-control default-date-picker" readonly="" name="date" id="exampleInputEmail1" value='' placeholder="">
+                                            <input type="text" class="form-control default-date-picker" required readonly="" name="date" id="exampleInputEmail1" value='' placeholder="" >
 
                                         </div>
                                         <div class="form-group col-md-12">
                                             <label for="exampleInputEmail1"> <?php echo lang('start_time'); ?></label>
                                             <div class="col-md-4">
                                                 <div class="input-group bootstrap-timepicker">
-                                                    <input type="text" class="form-control timepicker-default" name="s_time" id="exampleInputEmail1" value="">
+                                                    <input type="text" class="form-control timepicker-default" name="s_time" id="exampleInputEmail1" value="" required>
                                                     <span class="input-group-btn">
                                                         <button class="btn btn-default" type="button"><i class="fa fa-clock-o"></i></button>
                                                     </span>
@@ -89,7 +89,7 @@
                                             <label for="exampleInputEmail1"> <?php echo lang('end_time'); ?></label>
                                             <div class="col-md-4">
                                                 <div class="input-group bootstrap-timepicker">
-                                                    <input type="text" class="form-control timepicker-default" name="e_time" id="exampleInputEmail1" value="">
+                                                    <input type="text" class="form-control timepicker-default" name="e_time" id="exampleInputEmail1" value="" required>
                                                     <span class="input-group-btn">
                                                         <button class="btn btn-default" type="button"><i class="fa fa-clock-o"></i></button>
                                                     </span>

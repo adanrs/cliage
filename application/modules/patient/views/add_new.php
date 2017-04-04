@@ -54,7 +54,7 @@
                                         </div>
 										  <div class="form-group">
                                             <label for="exampleInputEmail1"><?php echo lang('p_id'); ?></label>
-                                            <input type="text" class="form-control" name="p_id" id="exampleInputEmail1" value='<?php
+                                            <input type="text" class="form-control" name="p_id" id="p_id" value='<?php
                                             if (!empty($patient->p_id)) {
                                                 echo $patient->p_id;
                                             }
@@ -80,7 +80,7 @@
 
                                         <div class="form-group">
                                             <label for="exampleInputEmail1"><?php echo lang('email'); ?></label>
-                                            <input type="text" class="form-control" name="email" id="exampleInputEmail1" value='<?php
+                                            <input type="email" class="form-control" name="email" id="exampleInputEmail1" value='<?php
                                             if (!empty($patient->email)) {
                                                 echo $patient->email;
                                             }
@@ -140,7 +140,7 @@
                                             ?>" placeholder="">      
                                         </div>
 
-
+<!--
                                         <div class="form-group">
                                             <label for="exampleInputEmail1"><?php echo lang('blood_group'); ?></label>
                                             <select class="form-control m-bot15" name="bloodgroup" value=''>
@@ -155,22 +155,13 @@
                                                         <?php } ?> 
                                             </select>
                                         </div>
-
+-->
                                         <div class="form-group">
                                             <label for="exampleInputEmail1"><?php echo lang('image'); ?></label>
                                             <input type="file" name="img_url">
                                         </div>
 
-                                        <input type="hidden" name="id" value='<?php
-                                        if (!empty($patient->id)) {
-                                            echo $patient->id;
-                                        }
-                                        ?>'>
-                                        <input type="hidden" name="p_id" value='<?php
-                                        if (!empty($patient->patient_id)) {
-                                            echo $patient->patient_id;
-                                        }
-                                        ?>'>
+                                     
                                         <section class="">
                                             <button type="submit" name="submit" class="btn btn-info"><?php echo lang('submit'); ?></button>
                                         </section>

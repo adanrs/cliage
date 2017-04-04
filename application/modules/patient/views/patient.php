@@ -146,34 +146,34 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1"><?php echo lang('name'); ?></label>
-                        <input type="text" class="form-control" name="name" id="exampleInputEmail1" value='' placeholder="">
+                        <input type="text" class="form-control" name="name" id="exampleInputEmail1" value='' placeholder="" required>
                     </div>
 
                     <div class="form-group">
 
 
                         <label for="exampleInputEmail1"><?php echo lang('password'); ?></label>
-                        <input type="password" class="form-control" name="password" id="exampleInputEmail1" placeholder="">
+                        <input type="password" class="form-control" name="password" id="exampleInputEmail1" placeholder="" required>
 
                     </div>
 
 
                     <div class="form-group">
                         <label for="exampleInputEmail1"><?php echo lang('email'); ?></label>
-                        <input type="text" class="form-control" name="email" id="exampleInputEmail1" value='' placeholder="">
+                        <input type="email" class="form-control" name="email" id="exampleInputEmail1" value='' placeholder="" required>
                     </div>
 
                     <div class="form-group">
                         <label for="exampleInputEmail1"><?php echo lang('address'); ?></label>
-                        <input type="text" class="form-control" name="address" id="exampleInputEmail1" value='' placeholder="">
+                        <input type="text" class="form-control" name="address" id="exampleInputEmail1" value='' placeholder="" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1"><?php echo lang('phone'); ?></label>
-                        <input type="text" class="form-control" name="phone" id="exampleInputEmail1" value='' placeholder="">
+                        <input type="text" class="form-control" name="phone" id="exampleInputEmail1" value='' placeholder=""  required>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1"><?php echo lang('sex'); ?></label>
-                        <select class="form-control m-bot15" name="sex" value=''>
+                        <select class="form-control m-bot15" name="sex" value='' required>
 
                             <option value="Male" <?php
                             if (!empty($patient->sex)) {
@@ -201,13 +201,13 @@
 
                     <div class="form-group">
                         <label><?php echo lang('birth_date'); ?></label>
-                        <input class="form-control form-control-inline input-medium default-date-picker" type="text" name="birthdate" value="" placeholder="">      
+                        <input class="form-control form-control-inline input-medium default-date-picker" type="text" name="birthdate" value="" placeholder="" required>      
                     </div>
-
+<!--
 
                     <div class="form-group">
                         <label for="exampleInputEmail1"><?php echo lang('blood_group'); ?></label>
-                        <select class="form-control m-bot15" name="bloodgroup" value=''>
+                        <select class="form-control m-bot15" name="bloodgroup" value='' required>
                             <?php foreach ($groups as $group) { ?>
                                 <option value="<?php echo $group->group; ?>" <?php
                                 if (!empty($patient->bloodgroup)) {
@@ -219,7 +219,7 @@
                                     <?php } ?> 
                         </select>
                     </div>
-
+-->
                     <div class="form-group">
                         <label for="exampleInputEmail1"><?php echo lang('image'); ?></label>
                         <input type="file" name="img_url">

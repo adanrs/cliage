@@ -170,7 +170,7 @@ a, a:hover, a:focus {
     height: 100%;
     position: fixed;
     background: #2a3542;
-}
+	}
 
 #sidebar ul li {
     position: relative;
@@ -250,9 +250,9 @@ ul.sidebar-menu li ul.sub li a {
     transition: all 0.3s ease;
     color: #aeb2b7;
 }
-
+/*Color Menu*/
 ul.sidebar-menu li ul.sub li a:hover, ul.sidebar-menu li ul.sub li.active a {
-    color: #FF6C60;
+    color: #131946;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -344,9 +344,9 @@ ul.sidebar-menu li a.active i {
     right: 0;
     z-index: 1002;
 }
-
+/*Cabecera* adada/*/
 .white-bg {
-    background: #f1f1f1;
+   background: #4a8bc2;
     border-bottom: 1px solid #f1f2f7;
 }
 
@@ -358,11 +358,16 @@ ul.sidebar-menu li a.active i {
 }
 
 a.logo {
-    font-size: 21px;
-    color: #2e2e2e;
-    float: left;
-    margin-top: 15px;
-    text-transform: uppercase;
+ -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 40px Impact, Charcoal, sans-serif;
+
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.5) ;
+
 }
 
 a.logo:hover, a.logo:focus {
